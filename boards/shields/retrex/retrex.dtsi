@@ -7,86 +7,29 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 
-/{
 
-    "default_transform": {
-      "layout": [
-        { "row": 0, "col":  0, "x":  0, "y": 0 },
-        { "row": 0, "col":  1, "x":  1, "y": 0 },
-        { "row": 0, "col":  2, "x":  2, "y": 0 },
-        { "row": 0, "col":  3, "x":  3, "y": 0 },
-        { "row": 0, "col":  4, "x":  4, "y": 0 },
-        { "row": 0, "col":  5, "x":  5, "y": 0 },
-        { "row": 0, "col": 10, "x": 10, "y": 0 },
-        { "row": 0, "col": 11, "x": 11, "y": 0 },
-        { "row": 0, "col": 12, "x": 12, "y": 0 },
-        { "row": 0, "col": 13, "x": 13, "y": 0 },
-        { "row": 0, "col": 14, "x": 14, "y": 0 },
-        { "row": 0, "col": 15, "x": 15, "y": 0 },
-      
-        { "row": 1, "col":  0, "x":  0, "y": 1 },
-        { "row": 1, "col":  1, "x":  1, "y": 1 },
-        { "row": 1, "col":  2, "x":  2, "y": 1 },
-        { "row": 1, "col":  3, "x":  3, "y": 1 },
-        { "row": 1, "col":  4, "x":  4, "y": 1 },
-        { "row": 1, "col":  5, "x":  5, "y": 1 },
-        { "row": 1, "col":  6, "x":  6, "y": 0.5},
-        { "row": 1, "col":  9, "x":  9, "y": 0.5 },
-        { "row": 1, "col": 10, "x": 10, "y": 1 },
-        { "row": 1, "col": 11, "x": 11, "y": 1 },
-        { "row": 1, "col": 12, "x": 12, "y": 1 },
-        { "row": 1, "col": 13, "x": 13, "y": 1 },
-        { "row": 1, "col": 14, "x": 14, "y": 1 },
-        { "row": 1, "col": 15, "x": 15, "y": 1 },
-      
-        { "row": 2, "col":  0, "x":  0, "y": 2 },
-        { "row": 2, "col":  1, "x":  1, "y": 2 },
-        { "row": 2, "col":  2, "x":  2, "y": 2 },
-        { "row": 2, "col":  3, "x":  3, "y": 2 },
-        { "row": 2, "col":  4, "x":  4, "y": 2 },
-        { "row": 2, "col":  5, "x":  5, "y": 2 },
-        { "row": 2, "col":  6, "x":  6, "y": 1.5},
-        { "row": 2, "col":  9, "x":  9, "y": 1.5},
-        { "row": 2, "col": 10, "x": 10, "y": 2 },
-        { "row": 2, "col": 11, "x": 11, "y": 2 },
-        { "row": 2, "col": 12, "x": 12, "y": 2 },
-        { "row": 2, "col": 13, "x": 13, "y": 2 },
-        { "row": 2, "col": 14, "x": 14, "y": 2 },
-        { "row": 2, "col": 15, "x": 15, "y": 2 },
-      
-        { "row": 3, "col":  0, "x":  0, "y": 3 },
-        { "row": 3, "col":  1, "x":  1, "y": 3 },
-        { "row": 3, "col":  2, "x":  2, "y": 3 },
-        { "row": 3, "col":  3, "x":  3, "y": 3 },
-        { "row": 3, "col":  4, "x":  4, "y": 3 },
-        { "row": 3, "col":  5, "x":  5, "y": 3 },
-        { "row": 3, "col":  6, "x":  6, "y": 3 },
-        { "row": 3, "col":  7, "x":  7, "y": 3 },
-        { "row": 3, "col":  8, "x":  8, "y": 3 },
-        { "row": 3, "col":  9, "x":  9, "y": 3 },
-        { "row": 3, "col": 10, "x": 10, "y": 3 },
-        { "row": 3, "col": 11, "x": 11, "y": 3 },
-        { "row": 3, "col": 12, "x": 12, "y": 3 },
-        { "row": 3, "col": 13, "x": 13, "y": 3 },
-        { "row": 3, "col": 14, "x": 14, "y": 3 },
-        { "row": 3, "col": 15, "x": 15, "y": 3 },
-      
-        { "row": 4, "col":  0, "x":  0, "y": 4 },
-        { "row": 4, "col":  1, "x":  1, "y": 4 },
-        { "row": 4, "col":  2, "x":  2, "y": 4 },
-        { "row": 4, "col":  3, "x":  3, "y": 4 },
-        { "row": 4, "col":  5, "x":  4.5, "y": 4},
-        { "row": 4, "col":  6, "x":  6, "y": 4 },
-        { "row": 4, "col":  7, "x":  7, "y": 4 },
-        { "row": 4, "col":  8, "x":  8, "y": 4 },
-        { "row": 4, "col":  9, "x":  9, "y": 4 },
-        { "row": 4, "col": 10, "x": 10.5, "y": 4 },
-        { "row": 4, "col": 12, "x": 12, "y": 4 },
-        { "row": 4, "col": 13, "x": 13, "y": 4 },
-        { "row": 4, "col": 14, "x": 14, "y": 4 },
-        { "row": 4, "col": 15, "x": 15, "y": 4 }
-      ]
-    }
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+
+    default_transform: keymap_transform_0 {
+        compatible = "zmk,matrix-transform";
+        columns = <14>;
+        rows = <5>;
+// | SW1  | SW2  | SW3  | SW4  | SW5  | SW6  |                               | SW6  | SW5  | SW4  | SW3  | SW2  | SW1  |
+// | SW7  | SW8  | SW9  | SW10 | SW11 | SW12 | SW13 |                 | SW13 | SW12 | SW11 | SW10 | SW9  | SW8  | SW7  |
+// | SW14 | SW15 | SW16 | SW17 | SW18 | SW19 | SW20 |                 | SW20 | SW19 | SW18 | SW17 | SW16 | SW15 | SW14 |
+// | SW21 | SW22 | SW23 | SW24 | SW25 | SW26 | SW27 | SW28 |   | SW28 | SW27 | SW26 | SW25 | SW24 | SW23 | SW22 | SW21 |
+// | SW29 | SW30 | SW31 | SW32 |     SW33    | SW34 | SW35 |   | SW35 | SW34 |     SW33    | SW32 | SW31 | SW30 | SW29 |
+        map = <
+RC(0,0) RC(0,1) RC(0,2) RC(0,3) RC(0,4) RC(0,5)                                 RC(0,8) RC(0,9)  RC(0,10) RC(0,11) RC(0,12) RC(0,13)
+RC(1,0) RC(1,1) RC(1,2) RC(1,3) RC(1,4) RC(1,5) RC(0,6)                 RC(0,7) RC(1,8) RC(1,9)  RC(1,10) RC(1,11) RC(1,12) RC(1,13)
+RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5) RC(1,6)                 RC(1,7) RC(2,8) RC(2,9)  RC(2,10) RC(2,11) RC(2,12) RC(2,13)
+RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(2,6) RC(3,6) RC(3,7) RC(2,7) RC(3,8) RC(3,9)  RC(3,10) RC(3,11) RC(3,12) RC(3,13)
+RC(4,0) RC(4,1) RC(4,2) RC(4,3)      RC(4,4)    RC(4,5) RC(4,6) RC(4,7) RC(4,8)     RC(4,9)      RC(4,10) RC(4,11) RC(4,12) RC(4,13)
+        >;
+    };
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
