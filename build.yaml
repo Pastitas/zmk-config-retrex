@@ -10,8 +10,8 @@ shield: ["retrex_left", "retrex_right"]
 include:
 - board: nrfmicro_13
   shield: retrex_left
-  snippet: studio-rpc-usb-uart
-  cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #snippet: studio-rpc-usb-uart
+  #cmake-args: -DCONFIG_ZMK_STUDIO=y
 - board: nrfmicro_13
   shield: retrex_right
 - board: nice_nano_v2
