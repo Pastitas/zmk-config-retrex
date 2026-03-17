@@ -5,16 +5,16 @@
 # pass flags to the build command, `snippet` to add a Zephyr snippet, and
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 
-board: ["nrfmicro/nrf52833/zmk"]
+board: ["nrfmicro/nrf52840/zmk"]
 shield: ["retrex_left", "retrex_right"]
 include:
-- board: nrfmicro/nrf52833/zmk
+- board: nrfmicro/nrf52840/zmk
   shield: retrex_left
   snippet: studio-rpc-usb-uart
   cmake-args: -DCONFIG_ZMK_STUDIO=y
-- board: nrfmicro/nrf52833/zmk
+- board: nrfmicro/nrf52840/zmk
   shield: retrex_right
-- board: nrfmicro/nrf52833/zmk
+- board: nrfmicro/nrf52840/zmk
   shield: settings_reset
 
 
